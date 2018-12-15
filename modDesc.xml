@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="40">
+    <author>CptCray</author>
+    <version>0.0.0.1</version>
+    <title>
+        <en>toggleHeadtracking</en>
+        <de>toggleHeadtracking</de>
+        <fr>toggleHeadtracking</fr>
+    </title>
+    <description>
+        <en><![CDATA[toggleHeadtracking]]></en>        
+        <de><![CDATA[toggleHeadtracking]]></de>
+        <fr><![CDATA[toggleHeadtracking]]></fr>    
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="toggleHeadtracking.lua"/>
+    </extraSourceFiles>
+	
+	<l10n>
+		<text name="input_toggleHeadtrackingTOGGLE">
+            <en>toggleHeadtracking</en>
+            <de>toggleHeadtracking</de>
+        </text>
+	</l10n>
+</modDesc>
