@@ -15,9 +15,9 @@ function toggleHeadtracking:loadMap(name)
 	self.isHeadTrackingEnabledStartupValue = false
 	if g_gameSettings:getValue("isHeadTrackingEnabled") then
 		self.isHeadTrackingEnabledStartupValue = true;
-		print("isHeadTrackingEnabled true")
+		-- print("isHeadTrackingEnabled true")
 	else
-		print("isHeadTrackingEnabled false")
+		-- print("isHeadTrackingEnabled false")
 	end
 end;
 
@@ -33,10 +33,10 @@ function toggleHeadtracking:keyEvent(unicode, sym, modifier, isDown)
 		if Input.isKeyPressed( Input.KEY_t ) then
 			if g_gameSettings:getValue("isHeadTrackingEnabled") then
 				g_gameSettings:setValue("isHeadTrackingEnabled", false, false)
-				print("disable Headtracking")
+				-- print("disable Headtracking")
 			else
 				g_gameSettings:setValue("isHeadTrackingEnabled", true, false)
-				print("enable Headtracking")
+				-- print("enable Headtracking")
 			end
 		end
 	end 
